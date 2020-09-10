@@ -52,12 +52,14 @@ entrada o dicionário e retorna uma lista com o nome dos alunos aprovados
 (um aluno é aprovado quando a média das suas notas é maior ou igual a 6).
 '''
 def aprovados(dicionario):
-    for x in alunos:
-        media = alunos[x]
+    alunos_aprovados = []
+    for x in dicionario:
+        media = dicionario[x]
         media = sum(media)/len(media)
         if media >= 6.0:
             alunos_aprovados.append(x)
-    return (alunos_aprovados)
+    return alunos_aprovados
+
 
 
 '''
