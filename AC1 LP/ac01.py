@@ -36,13 +36,13 @@ item aparece na lista.
 '''
 
 def posicoes_lista(lista, item):
-    posicoes_item = []
-    posicao_item = 0
-    for x in lista:
-        if x == item:
-            posicoes_item.append(posicao_item)
-            posicao_item += 1
-    return posicoes_item
+    lista_item = []
+    pos = 0
+    for a in lista:
+        if a == item:
+            lista_item.append(pos)
+        pos +=1 
+    return lista_item
 
 
 '''
