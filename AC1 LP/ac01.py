@@ -1,9 +1,9 @@
 # INSIRA ABAIXO OS NOMES DOS ALUNOS DO GRUPO (máximo 5 alunos)
-# ALUNO 1:
-# ALUNO 2:
-# ALUNO 3:
-# ALUNO 4:
-# ALUNO 5:
+# ALUNO 1: Leonardo Andrade de Souza
+# ALUNO 2: Keven Pereira de Oliveira
+# ALUNO 3: Mylena Oliveira Takada
+# ALUNO 4: Thais Conceição de Souza
+# ALUNO 5: Thainá Bezerra de Souza
 
 
 '''
@@ -70,5 +70,5 @@ nota na lista de notas do aluno correspondente e retornar o dicionário com as
 alterações realizadas.
 '''
 def incluir_nota(alunos, nome, nota):
-    pass
-
+    alunos[nome].append(nota)
+    return alunos
