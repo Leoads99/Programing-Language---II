@@ -1,0 +1,5 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "python.linting.flake8Enabled":true,
+    "python.formatting.provider": "autopep8"  
+}
